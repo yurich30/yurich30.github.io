@@ -183,13 +183,15 @@ i {
     width: 73%;
 }
 .subcol-md-3{
-    width: 33%;
+    width: 33.33%;
     float: left;
 }
 .product {
     width: 270px;
     height: 650px;
     border: 1px solid white;
+    margin-top: 15px;
+    margin-left: 0px;
 }
 .img {
     background-color:rgba(255,255,255,0.75);
@@ -259,19 +261,78 @@ i {
     background-image: url(images/like2.png);
     background-color: #2c71b8;
 }
-.description {}
-
-
-
-
+.devicename{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 15px;
+    margin-bottom: 19px;
+}
+.description {
+    width: 100%;
+    font-size: 21px;
+    font-weight: lighter;
+    padding-left: 15px;
+    margin-bottom: 19px;
+}
+.info {
+    font-size: 18px;
+    font-weight: lighter;
+    padding-left: 15px;
+    margin-bottom: 19px;
+}
+.info p {
+    line-height: 1.5;
+}
+.uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.price {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.btnmoredetails {
+    text-align: center;
+    margin: 15px auto;
+}
 .btnmoredetails button{
     height: 50px;
     width: 210px;
     border: 1px solid white;
     background-color: #2c71b8;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btnaddtocart {
+    margin-left: 29px;
 }
 .btnaddtocart button{
     height: 50px;
     width: 210px;
     border: 1px solid white;
+    background-color: #568dc6;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btnaddtocart button>div{
+    float: left;
+}
+.txt {
+    width: 170px;
+}
+.addtcrtimg {
+    width: 17px;
+    height: 17px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.addtcrtimg div{
+    width: 17px;
+    height: 17px;
+    background-image: url(images/cart2.png);
+    background-repeat: no-repeat;
+}
+.height100 {
+    height: 100%;
 }
