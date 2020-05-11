@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    color: white;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -169,4 +170,108 @@ i {
     display: inline-block;
     padding: 3px;
     margin-bottom: 3px;
+}
+
+
+
+
+
+
+
+                    /* MAIN */
+.col-md-9 {
+    width: 73%;
+}
+.subcol-md-3{
+    width: 33%;
+    float: left;
+}
+.product {
+    width: 270px;
+    height: 650px;
+    border: 1px solid white;
+}
+.img {
+    background-color:rgba(255,255,255,0.75);
+    position: relative;
+    height: 180px;
+    border-bottom: 1px solid white;
+    position: relative;
+}
+.img img{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+}
+.increase {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top:10px;
+    right: 10px;
+    border: 1px solid #2c71b8;
+}
+.increase div {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background-image: url(images/increase.png);
+    background-repeat: no-repeat;
+}
+.like {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50px;
+    right: 10px;
+    border:1px solid #2c71b8;
+}
+.like div {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    background-image: url(images/like.png);
+    background-repeat: no-repeat;
+}
+.increase:hover {
+    background-color: #2c71b8;
+}
+.increase div:hover {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background-image: url(images/increase2.png);
+    background-repeat: no-repeat;
+    
+}
+.like:hover {
+    background-color: #2c71b8;
+}
+.like div:hover {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-image: url(images/like2.png);
+    background-color: #2c71b8;
+}
+.description {}
+
+
+
+
+.btnmoredetails button{
+    height: 50px;
+    width: 210px;
+    border: 1px solid white;
+    background-color: #2c71b8;
+}
+.btnaddtocart button{
+    height: 50px;
+    width: 210px;
+    border: 1px solid white;
 }
