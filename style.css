@@ -179,6 +179,15 @@ i {
 
 
                     /* MAIN */
+.col-md-12 {
+    width: 100%;
+}
+.col-md-8 {
+    width: 66%;
+}
+.col-md-4 {
+    width: 33%;
+}
 .col-md-9 {
     width: 73%;
 }
@@ -333,6 +342,49 @@ i {
     background-image: url(images/cart2.png);
     background-repeat: no-repeat;
 }
-.height100 {
-    height: 100%;
+
+
+
+
+
+                /* Filter */
+input[type="checkbox"] {
+    display: none;
+}
+label:before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+}
+input[type="checkbox"]:checked + label:before {
+    background-color: white;
+}
+.filter {
+    background-color: rgba(86, 141, 198, 0.7);;
+}
+.filter div {
+    width: 100%;
+}
+.filter>div {
+    margin:30px 0;
+    margin-left: 30px;
+}
+.filter>div div {
+    padding-left: 20px;
+}
+.filter label:before {
+    position: relative;
+    top: 15px; 
+    left: -15px;
+}
+
+.btnsubmit button{
+    height: 50px;
+    width: 80%;
+    border: 1px solid white;
+    background-color: #2c71b8;
+    font-size: 16px;
+    font-weight: 700;
 }
