@@ -260,13 +260,14 @@ i {
     background-repeat: no-repeat;
     
 }
-.like:hover {
+.like:hover{
     background-color: #2c71b8;
+    
 }
-.like div:hover {
+.like div:hover, .liked {
     position: absolute;
     top: 5px;
-    left: 5px;
+    right: 5px;
     background-image: url(images/like2.png);
     background-color: #2c71b8;
 }
@@ -387,4 +388,52 @@ input[type="checkbox"]:checked + label:before {
     background-color: #2c71b8;
     font-size: 16px;
     font-weight: 700;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,255,0.3);
+    /* z-index: 100; */
+    display: none;
+}
+.modal-block {
+    width: 300px;
+    margin: 80px auto;
+    height: 200px;
+    border: 1px solid grey;
+    background-color: gray;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.form-fields {
+    margin: 10px 0;
+}
+.form-fields input{
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+}
+.btn-close {
+    text-align: right;
+}
+.hide {
+   display: none; 
+}
+.show {
+    display: block;
+}
+
+.slider-block > div{
+    padding: 150px 0;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.product-quantity, .product-quantity input {
+    text-align: center;
+    background-color: #2c71b8;
 }
