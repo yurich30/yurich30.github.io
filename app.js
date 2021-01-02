@@ -178,3 +178,10 @@ function Counter(incrementButton, decrementButton, inputField, maxCount = 5, min
 
 const counter1 = new Counter(incrementBtn[0],decrementBtn[0],productQuantity[0]);
 const counter2 = new Counter(incrementBtn[1],decrementBtn[1],productQuantity[1]);
+const counter2 = new Counter(incrementBtn[2],decrementBtn[2],productQuantity[2]);
+const counter2 = new Counter(incrementBtn[3],decrementBtn[3],productQuantity[3]);
+const counter2 = new Counter(incrementBtn[4],decrementBtn[4],productQuantity[4]);
+const counter2 = new Counter(incrementBtn[5],decrementBtn[5],productQuantity[5]);
+const counter2 = new Counter(incrementBtn[6],decrementBtn[6],productQuantity[6]);
+const counter2 = new Counter(incrementBtn[7],decrementBtn[7],productQuantity[7]);
+const counter2 = new Counter(incrementBtn[8],decrementBtn[8],productQuantity[8]);
